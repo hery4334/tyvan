@@ -4,11 +4,11 @@ from PIL import Image
 st.set_page_config(page_title="Lời tỏ tình dành riêng cho em 💌", layout="centered")
 
 # Mật khẩu bí mật
-correct_password = "yeuanh"
+correct_password = "23122005"
 
 # Giao diện nhập mật khẩu
 st.title("🔐 Nhập mật khẩu để xem điều bí mật 💌")
-password = st.text_input("Mật khẩu:", type="23122005")
+password = st.text_input("Mật khẩu:", type="passwork")
 
 if password == correct_password:
     st.success("Mật khẩu chính xác! Đây là điều anh muốn nói với em 💖")
