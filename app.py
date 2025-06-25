@@ -9,7 +9,8 @@ password = st.text_input("Mật khẩu:", type="password")
 
 if password == correct_password:
     st.success("Mật khẩu chính xác! Đây là điều anh muốn nói với em 💖")
-    st.image("https://i.imgur.com/1r2IfAn.jpeg", caption="Vì em là duy nhất 💘", use_column_width=True)
+    st.image("
+    ", caption="Vì em là duy nhất 💘", use_column_width=True)
     st.markdown("""
     ## 💝 Gửi đến em:
     > "Từ lần đầu tiên anh gặp em, anh biết trái tim mình không thể bình yên nữa.  
