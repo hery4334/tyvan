@@ -3,4 +3,4 @@ try:
     image = Image.open("images/love.png")
     st.image(image, caption="Vì em là duy nhất 💘", use_column_width=True)
 except:
-    st.image("https://i.imgur.com/tGbaZCY.png", caption="Vì em là duy nhất 💘", use_column_width=True)
+    st.image("z6742000234320_1533ef99c1c49ace87c3d48b85c37f25", caption="Vì em là duy nhất 💘", use_column_width=True)
