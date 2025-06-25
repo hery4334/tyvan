@@ -8,7 +8,7 @@ correct_password = "23122005"
 
 # Giao diện nhập mật khẩu
 st.title("🔐 Nhập mật khẩu để xem điều bí mật 💌")
-password = st.text_input("Mật khẩu:", type="passwork")
+password = st.text_input("Mật khẩu:", type="password")
 
 if password == correct_password:
     st.success("Mật khẩu chính xác! Đây là điều anh muốn nói với em 💖")
