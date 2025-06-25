@@ -1,1 +1,6 @@
-st.image("https://i.imgur.com/tGbaZCY.png", caption="Vì em là duy nhất 💘", use_column_width=True)
+try:
+    from PIL import Image
+    image = Image.open("images/love.png")
+    st.image(image, caption="Vì em là duy nhất 💘", use_column_width=True)
+except:
+    st.image("https://i.imgur.com/tGbaZCY.png", caption="Vì em là duy nhất 💘", use_column_width=True)
