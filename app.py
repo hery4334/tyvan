@@ -1,22 +1,15 @@
 import streamlit as st
-from PIL import Image
 
-st.set_page_config(page_title="Lời tỏ tình dành riêng cho em 💌", layout="centered")
+st.set_page_config(page_title="Tỏ tình bí mật", layout="centered")
 
-# Mật khẩu bí mật
 correct_password = "23122005"
 
-# Giao diện nhập mật khẩu
 st.title("🔐 Nhập mật khẩu để xem điều bí mật 💌")
 password = st.text_input("Mật khẩu:", type="password")
 
 if password == correct_password:
     st.success("Mật khẩu chính xác! Đây là điều anh muốn nói với em 💖")
-    st.balloons()
-
-    image = Image.open("images/love.png")
-    st.image(image, caption="Vì em là duy nhất 💘", use_column_width=True)
-
+    st.image("https://i.imgur.com/tGbaZCY.png", caption="Vì em là duy nhất 💘", use_column_width=True)
     st.markdown("""
     ## 💝 Gửi đến em:
     > "Từ lần đầu tiên anh gặp em, anh biết trái tim mình không thể bình yên nữa.  
