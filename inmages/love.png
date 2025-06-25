@@ -1,0 +1,16 @@
+from PIL import Image, ImageDraw
+
+# Tạo ảnh trống
+img = Image.new('RGB', (400, 400), color='white')
+draw = ImageDraw.Draw(img)
+
+# Vẽ trái tim
+heart = [
+    (200, 150), (250, 100), (300, 150),
+    (200, 300), (100, 150), (150, 100)
+]
+
+draw.polygon(heart, fill='red')
+
+# Lưu ảnh
+img.save("images/love.png")
